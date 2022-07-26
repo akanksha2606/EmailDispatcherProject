@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+* {box-sizing: border-box;}
+body{
+	background-color: rgba(213, 209, 209, 0.779);
+	
+}
+header {
+	background-color:black;
+	padding: 60px;
+}
+
+h1 {
+	color: white;
+	text-align: right;
+	font-size: 90px;
+}
+
+nav {
+	background-color: rgb(94, 88, 88);
+	padding: 20px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+	background-color: rgba(106, 227, 25, 0.792);
+	border-radius: 5px;
+	color: black;
+	font-size: 15px;
+	font-weight: bolder;
+	position: static;
+	width: 100px;
+	padding: 10px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.content {
+	background-color: rgba(213, 209, 209, 0.779);
+	border-radius: 5px;
+	padding: 16px 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+	background-color: rgba(155, 153, 153, 0.945);
+	margin: 0 150px 0 150px;
+	border-radius: 0 20px 0 20px;
+}
+
+.box1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxBtn {
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#upbtn{
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.file-upload-field{
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+h2{
+	color:White;
+	text-align : center;
+}
